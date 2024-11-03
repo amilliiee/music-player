@@ -14,13 +14,13 @@ const cover = document.getElementById('song-cover');
 
 const playlist = [
     {
-        src: './assets/lost-in-city-lights-145038.mp3',
+        src: './lost-in-city-lights-145038.mp3',
         title: 'Lost in City Lights',
         artist: 'Cosmo Sheldrake',
         cover: './assets/cover-1.png'
     },
     {
-        src: './assets/forest-lullaby-110624.mp3',
+        src: '.forest-lullaby-110624.mp3',
         title: 'Forest Lullaby',
         artist: 'Lesfm',
         cover: './assets/cover-2.png'
