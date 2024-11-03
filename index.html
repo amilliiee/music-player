@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Player</title>
+  <link href='/style.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="music-player-wrapper" id="wrapper">
+    <img class="song-cover" id="song-cover" src="./assets/cover-1.png">
+    <div class="song-info">
+      <span id="song-title">Placeholder</span>
+      <p id="artist">Placeholder</p>
+    </div>
+    <div class="song-time">
+      <div id="curr-time">0:00</div>
+      <div id="duration">0:00</div>
+    </div>
+    <audio src="./assets/lost-in-city-lights-145038.mp3" preload="metadata"></audio>
+    <input type="range" class="slider" id="seek-slider" max="100" value="0">
+    <div class="music-controls">
+      <button id="unskip">
+        <img src="./assets/Stop_and_play_fill-1.svg">
+      </button>
+      <button id="play">
+        <img src="./assets/Play_fill.svg">
+      </button>
+      <button id="skip">
+        <img src="./assets/Stop_and_play_fill.svg">
+      </button>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
