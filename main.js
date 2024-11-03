@@ -16,13 +16,13 @@ const playlist = [
     {
         src: './assets/lost-in-city-lights-145038.mp3',
         title: 'Lost in City Lights',
-        artist: 'Artist A',
+        artist: 'Cosmo Sheldrake',
         cover: './assets/cover-1.png'
     },
     {
         src: './assets/forest-lullaby-110624.mp3',
         title: 'Forest Lullaby',
-        artist: 'Artist B',
+        artist: 'Lesfm',
         cover: './assets/cover-2.png'
     }
 ];
